@@ -8,6 +8,4 @@ fun main(args: Array<String>) {
     println("Who is there, maybe ${getNameUpcase()}???")
 }
 
-fun getNameUpcase(name: String = "John Doe") : String {
-    return name.toUpperCase()
-}
+fun getNameUpcase(name: String = "John Doe") : String = name.toUpperCase()
